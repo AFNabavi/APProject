@@ -13,7 +13,7 @@ classDiagram
         -int number
         +getter() boolean
     }
-    Book --> Shelf : uses
+    Book -- Shelf : uses
 ```
 
 ## Game Logic
