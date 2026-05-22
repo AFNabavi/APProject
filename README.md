@@ -6,16 +6,16 @@
 ```mermaid
 classDiagram
     class Book {
-        + name String
-        + geter() boolean
+        +String name
+        +geter() boolean
     }
 
     class Shelf {
-        - number int
-        + geter() boolean
+        -int number
+        +geter() boolean
     }
 
-    Book --> Shelf: uses
+    Book --> Shelf : stored in
 ```
 
 ## Game Logic
