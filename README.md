@@ -5,17 +5,17 @@
 ## Class UML
 ```mermaid
 classDiagram
-    class book {
-        + name: String
-        + geter(): boolean
+    class Book {
+        + name String
+        + geter() boolean
     }
 
-    class shelf {
-        - number: int
-        + geter(): boolean
+    class Shelf {
+        - number int
+        + geter() boolean
     }
 
-    bool --> shelf
+    Book --> Shelf: uses
 ```
 
 ## Game Logic
