@@ -4,7 +4,6 @@
 
 ## Class UML
 ```mermaid
-```mermaid
 classDiagram
     class Book {
         +String name
@@ -15,7 +14,6 @@ classDiagram
         +getter() boolean
     }
     Book --> Shelf : uses
-```
 ```
 
 ## Game Logic
