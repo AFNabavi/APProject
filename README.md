@@ -4,18 +4,18 @@
 
 ## Class UML
 ```mermaid
+```mermaid
 classDiagram
     class Book {
         +String name
-        +geter() boolean
+        +getter() boolean
     }
-
     class Shelf {
         -int number
-        +geter() boolean
+        +getter() boolean
     }
-
-    Book --> Shelf : stored in
+    Book --> Shelf : uses
+```
 ```
 
 ## Game Logic
