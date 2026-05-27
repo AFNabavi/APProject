@@ -7,15 +7,16 @@
 classDiagram
     class Book {
         +String name
-        +getter() boolean
+        +getter()
     }
     class Shelf {
         -int number
-        +getter() boolean
+        +getter()
     }
-    Book -- Shelf : uses
+    Book --> Shelf : uses
 ```
 
 ## Game Logic
 
 ## Work Distribution
+all works:
