@@ -5,6 +5,8 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
+import config.ResourceType;
+
 public class Sector {
 
     private int id;

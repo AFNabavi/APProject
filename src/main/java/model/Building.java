@@ -1,5 +1,7 @@
 package model;
 
+import config.BuildingType;
+
 public class Building {
 
     private BuildingType type;

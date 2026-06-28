@@ -1,5 +1,7 @@
 package model;
 
+import config.ResourceType;
+
 public class Resource {
 
     private ResourceType type;

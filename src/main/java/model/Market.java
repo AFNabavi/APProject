@@ -5,6 +5,8 @@ package model;
 import java.util.EnumMap;
 import java.util.Map;
 
+import config.ResourceType;
+
 public class Market {
 
     private Map<ResourceType, Integer> prices =
