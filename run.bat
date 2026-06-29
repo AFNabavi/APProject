@@ -6,7 +6,7 @@ set OUT=out
 
 if not exist %OUT% mkdir %OUT%
 
-javac --module-path %FX_LIB% --add-modules javafx.controls -d %OUT% -sourcepath %SRC% %SRC%\app\Main.java
+javac --module-path %FX_LIB% --add-modules javafx.controls -d %OUT% -sourcepath %SRC% %SRC%\Main.java
 
 if errorlevel 1 (
     pause
