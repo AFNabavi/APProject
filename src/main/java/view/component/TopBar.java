@@ -1,7 +1,6 @@
 package view.component;
 
 import view.ViewConstants;
-import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
@@ -16,14 +15,18 @@ public class TopBar extends HBox {
 
     public TopBar() {
         super();
+        setSize();
         this.getChildren().addAll(stopButton, gameName, roundNum, playerTurn);
-        this.setMinHeight(ViewConstants.TOP_BAR_HEIGHT);
-        this.setPrefHeight(ViewConstants.TOP_BAR_HEIGHT);
-        this.setMaxHeight(ViewConstants.TOP_BAR_HEIGHT);
         this.getStyleClass().add("fx-top-bar");
-        this.setPadding(new Insets(10));
+        // this.setPadding(new Insets(10));
         
         stopButton.setMaxWidth(100); // TODO: Solve it.
 
+    }
+
+    private void setSize() {
+        this.setMinHeight(ViewConstants.TOP_BAR_HEIGHT);
+        this.setMaxHeight(ViewConstants.TOP_BAR_HEIGHT);
+        this.setPrefWidth(ViewConstants.TOP_BAR_WIDTH);
     }
 }
