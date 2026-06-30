@@ -1,4 +1,4 @@
-package view.component.building;
+package view.component.board.building;
 
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
