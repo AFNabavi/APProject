@@ -8,7 +8,7 @@ public class Board extends VBox {
     public Board() {
         super();
         setSize();
-        this.getStyleClass().add("fx-board");
+        this.getStyleClass().addAll("fx-board", "fx-pane-border");
     }
 
     private void setSize() {

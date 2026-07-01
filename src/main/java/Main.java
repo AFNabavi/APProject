@@ -3,8 +3,13 @@ import javafx.stage.Stage;
 import view.scene.GameScene;
 
 public class Main extends Application {
+  
     @Override
     public void start(Stage primaryStage) {
+        f(primaryStage);
+    }
+
+    public static void f(Stage primaryStage) {
         primaryStage.setTitle("SILICON VALLEY");
         primaryStage.setHeight(1024);
         primaryStage.setWidth(1024);
@@ -14,4 +19,5 @@ public class Main extends Application {
         primaryStage.setScene(gameScene.init());
         primaryStage.show();
     }
+
 }

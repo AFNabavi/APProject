@@ -1,33 +1,46 @@
 .fx-top-bar {
-    -fx-background-color: red;
-    -fx-border-color: blue;
-    -fx-border-width: 30;
+    -fx-background-image: url("../images/top_bar_background_image.png");
+}
+.fx-top-bar-label {
+    -fx-text-fill: #F5F5F5;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.fx-bar-button {
+    -fx-text-fill: blue;
 }
 
-.fx-center-pane {
+.fx-pane-border {
+    -fx-border-color: gold;
+    -fx-border-width: 1;
+    -fx-border-radius: 2;
 }
+
 .fx-player-panel {
+    -fx-background-image: url("../images/left_background_image.png");
     -fx-padding: 5;
-    -fx-background-color: yellow;
 }
 .fx-market-panel {
-    -fx-background-color: gold;
+    -fx-background-image: url("../images/right_background_image.png");
+    -fx-padding: 5;
+}
+.fx-panel-label {
+    -fx-text-fill: rgb(121, 73, 45);
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-padding: 2;
+    -fx-border-color: rgb(100, 50, 50);
+    -fx-border-width: 2;
+    -fx-border-style: dashed;
+    -fx-border-radius: 5;
 }
 .fx-board {
-    -fx-background-color: green;
+    -fx-background-image: url("../images/mid_background_image.png");
 }
 
 .fx-bottom-bar {
-    -fx-background-color: cyan;
-    -fx-border-color: blue;
-    -fx-border-width: 2;
-    -fx-border-style: dotted;
+    -fx-background-image: url("../images/bottom_bar_background_image.png");
 }
 
-Label {
-    -fx-background-color: yellow;
-    -fx-border-color: red;
-    -fx-border-width: 1;
-    -fx-margin: 5;
-}
+
 

@@ -1,18 +1,22 @@
 package view.component.player;
 
 import view.ViewConstants;
+import view.component.style.ElementStyle;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 
 public class PlayerPanel extends VBox {
     
-    Label test = new Label("test label \nin player panel");
+    private Label test = new Label("test label \nin player panel");
+    private Label[] labels = {test};
 
     public PlayerPanel() {
         super();
         setSize();
         this.getChildren().addAll(test);
-        this.getStyleClass().add("fx-player-panel");
+        this.getStyleClass().addAll("fx-player-panel", "fx-pane-border");
+        ElementStyle.setLabelPos(this);
+        ElementStyle.setCssStyle("fx-panel-label", labels);
     }
 
     private void setSize() {
@@ -20,4 +24,5 @@ public class PlayerPanel extends VBox {
         this.setMinWidth(ViewConstants.PLAYER_PANEL_WIDTH);
         this.setPrefHeight(ViewConstants.PLAYER_PANEL_HEIGHT);
     }
+
 }
