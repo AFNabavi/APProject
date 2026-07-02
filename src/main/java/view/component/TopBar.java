@@ -20,13 +20,12 @@ public class TopBar extends HBox {
         setSize();
         this.getChildren().addAll(gameName, roundNum, playerTurn, stopButton);
         this.getStyleClass().addAll("fx-top-bar", "fx-pane-border");
-        // this.setPadding(new Insets(10));
         
         stopButton.setMaxWidth(100); // TODO: Solve it.
         ElementStyle.setLabelPos(this);
         ElementStyle.setCssStyle("fx-top-bar-label", labels);
         ElementStyle.setCssStyle("fx-bar-button", stopButton);
-        ElementStyle.setMargin(this, labels, stopButton);
+        this.setSpacing(15);
     }
 
     private void setSize() {

@@ -21,7 +21,7 @@ public class BottomBar extends HBox {
         this.getStyleClass().addAll("fx-bottom-bar", "fx-pane-border");
         ElementStyle.setLabelPos(this);
         ElementStyle.setCssStyle("fx-bar-button", elements);
-        ElementStyle.setMargin(this, elements);
+        this.setSpacing(15);
     }
 
     private void setSize() {

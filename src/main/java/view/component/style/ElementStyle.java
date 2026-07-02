@@ -8,33 +8,33 @@ import javafx.scene.layout.VBox;
 
 public class ElementStyle {
 
-    public static void setMargin(VBox node, Labeled... elements) {
+    public static void setMargin(Labeled... elements) {
         Insets insets = new Insets(0, 10, 0, 10);
         for (Labeled l : elements)
-            node.setMargin(l, insets);
+            VBox.setMargin(l, insets);
     }
 
-    public static void setMargin(HBox node, Labeled... elements) {
-        Insets insets = new Insets(0, 10, 0, 10);
-        for (Labeled l : elements)
-            node.setMargin(l, insets);
-    }
+    // public static void setMargin(Labeled... elements) {
+    //     Insets insets = new Insets(0, 10, 0, 10);
+    //     for (Labeled l : elements)
+    //         HBox.setMargin(l, insets);
+    // }
 
-    public static void setMargin(VBox node, Labeled[] labels, Labeled... elements) {
+    public static void setMargin(Labeled[] labels, Labeled... elements) {
         Insets insets = new Insets(0, 10, 0, 10);
         for (Labeled l : elements)
-            node.setMargin(l, insets);
+            VBox.setMargin(l, insets);
         for (Labeled l : labels)
-            node.setMargin(l, insets);
+            VBox.setMargin(l, insets);
     }
     
-    public static void setMargin(HBox node, Labeled[] labels, Labeled... elements) {
-        Insets insets = new Insets(0, 10, 0, 10);
-        for (Labeled l : elements)
-            node.setMargin(l, insets);
-        for (Labeled l : labels)
-            node.setMargin(l, insets);
-    }
+    // public static void setMargin(Labeled[] labels, Labeled... elements) {
+    //     Insets insets = new Insets(0, 10, 0, 10);
+    //     for (Labeled l : elements)
+    //         node.setMargin(l, insets);
+    //     for (Labeled l : labels)
+    //         node.setMargin(l, insets);
+    // }
 
     public static void setLabelPos(VBox node) { node.setAlignment(Pos.CENTER); }
 

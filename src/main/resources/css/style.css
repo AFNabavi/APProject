@@ -3,11 +3,26 @@
 }
 .fx-top-bar-label {
     -fx-text-fill: #F5F5F5;
-    -fx-font-size: 16px;
+    -fx-font-size: 19px;
     -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, black, 4, 0.7, 1.4, 1.4);
 }
-.fx-bar-button {
-    -fx-text-fill: blue;
+
+.fx-bar-button { 
+    -fx-background-color: linear-gradient(#FFD54F, #F9A825);
+    -fx-text-fill: #222;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    -fx-background-radius: 12;
+    -fx-effect: dropshadow(gaussian, #ffd700, 10, 0.5, 0, 0);
+    -fx-cursor: hand;
+}
+.fx-bar-button:hover {
+    -fx-background-color: #eac703;
+}
+.fx-bar-button:pressed {
+    -fx-background-color: #ffd700;
+    -fx-translate-y: 2;
 }
 
 .fx-pane-border {
@@ -26,13 +41,10 @@
 }
 .fx-panel-label {
     -fx-text-fill: rgb(121, 73, 45);
-    -fx-font-size: 15px;
-    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+    /* -fx-font-weight: bold; */
     -fx-padding: 2;
-    -fx-border-color: rgb(100, 50, 50);
-    -fx-border-width: 2;
-    -fx-border-style: dashed;
-    -fx-border-radius: 5;
+    -fx-effect: dropshadow(gaussian, gold, 1, 0.7, 1, 1);
 }
 .fx-board {
     -fx-background-image: url("../images/mid_background_image.png");
