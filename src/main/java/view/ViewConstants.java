@@ -12,10 +12,10 @@ public class ViewConstants {
     public static final int CENTER_PANE_WIDTH = PRIMARY_STAGE_WIDTH;
     public static final int CENTER_PANE_HEIGHT = 700;
 
-    public static final int PLAYER_PANEL_WIDTH = 162;
+    public static final int PLAYER_PANEL_WIDTH = 212;
     public static final int PLAYER_PANEL_HEIGHT = CENTER_PANE_HEIGHT;
 
-    public static final int MARKET_PANEL_WIDTH = 262;
+    public static final int MARKET_PANEL_WIDTH = 212;
     public static final int MARKET_PANEL_HEIGHT = CENTER_PANE_HEIGHT;
 
     public static final int BOARD_WIDTH = CENTER_PANE_WIDTH - PLAYER_PANEL_WIDTH - MARKET_PANEL_WIDTH;
@@ -29,8 +29,8 @@ public class ViewConstants {
     public static final int UNICORN_RAIDUS = 15;
     public static final int BUILDING_BORDER_THICK = 2;
     
-    public static final int VERTEX_HELPER_WIDTH = BOARD_SIDE;
-    public static final int VERTEX_HELPER_HEIGHT = (PLAYER_PANEL_HEIGHT - BOARD_SIDE); // = 112
+    public static final int INFO_PANEL_WIDTH = BOARD_SIDE;
+    public static final int INFO_PANEL_HEIGHT = (PLAYER_PANEL_HEIGHT - BOARD_SIDE); // = 100
 
     public static final int BOTTOM_BAR_WIDTH = PRIMARY_STAGE_WIDTH;
     public static final int BOTTOM_BAR_HEIGHT = 212;

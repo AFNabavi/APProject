@@ -35,19 +35,26 @@
     -fx-background-image: url("../images/left_background_image.png");
     -fx-padding: 5;
 }
+
 .fx-market-panel {
     -fx-background-image: url("../images/right_background_image.png");
     -fx-padding: 5;
 }
+
 .fx-panel-label {
     -fx-text-fill: rgb(121, 73, 45);
     -fx-font-size: 17px;
-    /* -fx-font-weight: bold; */
+    -fx-font-weight: bold;
     -fx-padding: 2;
     -fx-effect: dropshadow(gaussian, gold, 1, 0.7, 1, 1);
 }
+
 .fx-board {
     -fx-background-image: url("../images/mid_background_image.png");
+}
+.fx-info-panel {
+    -fx-border-color: gold;
+    -fx-border-width: 2;
 }
 
 .fx-bottom-bar {
