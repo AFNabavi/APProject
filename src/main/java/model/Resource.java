@@ -1,30 +1,24 @@
-package model;
+package com.silicontycoon.model;
 
-import config.ResourceType;
+/**
+ * The five resource types used as the currency of the game.
+ * Every card a player holds is an instance of one of these types.
+ */
+public enum Resource {
+    CAPITAL("سرمایه", "Capital"),
+    TALENT("استعداد", "Talent"),
+    CLOUD("زیرساخت ابری", "Cloud"),
+    PATENT("پتنت", "Patent"),
+    DATA("دیتا", "Data");
 
-public class Resource {
+    private final String persianName;
+    private final String englishName;
 
-    private ResourceType type;
-    private int amount;
-
-    public Resource(ResourceType type, int amount) {
-        this.type = type;
-        this.amount = amount;
+    Resource(String persianName, String englishName) {
+        this.persianName = persianName;
+        this.englishName = englishName;
     }
 
-    public ResourceType getType() {
-        return type;
-    }
-
-    public void setType(ResourceType type) {
-        this.type = type;
-    }
-
-    public int getAmount() {
-        return amount;
-    }
-
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
+    public String getPersianName() { return persianName; }
+    public String getEnglishName() { return englishName; }
 }
