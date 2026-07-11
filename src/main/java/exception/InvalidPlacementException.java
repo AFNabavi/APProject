@@ -1,4 +1,4 @@
-package com.silicontycoon.exception;
+package exception;
 
 /**
  * Thrown when a player attempts to build a structure on an illegal

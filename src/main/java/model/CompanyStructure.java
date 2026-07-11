@@ -1,4 +1,4 @@
-package com.silicontycoon.model;
+package model;
 
 import java.io.Serializable;
 import java.util.Map;

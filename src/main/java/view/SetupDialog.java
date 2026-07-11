@@ -1,4 +1,4 @@
-package com.silicontycoon.view;
+package view;
 
 import javafx.geometry.Insets;
 import javafx.scene.Scene;

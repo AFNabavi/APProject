@@ -1,8 +1,8 @@
-package com.silicontycoon.view;
+package view;
 
-import com.silicontycoon.controller.GameController;
-import com.silicontycoon.model.Player;
-import com.silicontycoon.model.Resource;
+import controller.GameController;
+import model.Player;
+import model.Resource;
 import javafx.geometry.Insets;
 import javafx.scene.control.Label;
 import javafx.scene.control.Separator;

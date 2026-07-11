@@ -1,4 +1,4 @@
-package com.silicontycoon.model;
+package model;
 
 /**
  * The type of a map sector. Every sector except {@link #REGULATORY_ZONE}

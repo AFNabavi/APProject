@@ -1,4 +1,4 @@
-package com.silicontycoon.controller;
+package controller;
 
 /**
  * Observer-pattern callback used by the view layer to react to engine

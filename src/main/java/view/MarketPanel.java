@@ -1,8 +1,8 @@
-package com.silicontycoon.view;
+package view;
 
-import com.silicontycoon.controller.GameController;
-import com.silicontycoon.model.Market;
-import com.silicontycoon.model.Resource;
+import controller.GameController;
+import model.Market;
+import model.Resource;
 import javafx.geometry.Insets;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;

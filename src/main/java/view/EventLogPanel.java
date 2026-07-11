@@ -1,6 +1,6 @@
-package com.silicontycoon.view;
+package view;
 
-import com.silicontycoon.model.GameEvent;
+import model.GameEvent;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Label;

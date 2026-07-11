@@ -1,4 +1,4 @@
-package com.silicontycoon.model;
+package model;
 
 import java.util.EnumMap;
 import java.util.Map;

@@ -1,8 +1,6 @@
-package com.silicontycoon;
-
-import com.silicontycoon.controller.GameController;
-import com.silicontycoon.view.GameView;
-import com.silicontycoon.view.SetupDialog;
+import controller.GameController;
+import view.GameView;
+import view.SetupDialog;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

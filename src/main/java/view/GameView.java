@@ -1,14 +1,14 @@
-package com.silicontycoon.view;
+package view;
 
-import com.silicontycoon.controller.GameController;
-import com.silicontycoon.controller.GameListener;
-import com.silicontycoon.controller.TurnPhase;
-import com.silicontycoon.exception.CorruptedSaveException;
-import com.silicontycoon.model.FounderRole;
-import com.silicontycoon.model.Player;
-import com.silicontycoon.model.Resource;
-import com.silicontycoon.util.Constants;
-import com.silicontycoon.util.SaveLoadManager;
+import controller.GameController;
+import controller.GameListener;
+import controller.TurnPhase;
+import exception.CorruptedSaveException;
+import model.FounderRole;
+import model.Player;
+import model.Resource;
+import util.Constants;
+import util.SaveLoadManager;
 import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;

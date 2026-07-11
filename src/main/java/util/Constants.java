@@ -1,4 +1,4 @@
-package com.silicontycoon.util;
+package util;
 
 /**
  * Central location for game-wide magic numbers, so no numeric literal

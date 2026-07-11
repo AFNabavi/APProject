@@ -1,7 +1,7 @@
-package com.silicontycoon.util;
+package util;
 
-import com.silicontycoon.exception.CorruptedSaveException;
-import com.silicontycoon.model.GameState;
+import exception.CorruptedSaveException;
+import model.GameState;
 
 import java.io.*;
 import java.util.function.Consumer;

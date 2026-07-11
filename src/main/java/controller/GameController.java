@@ -1,9 +1,9 @@
-package com.silicontycoon.controller;
+package controller;
 
-import com.silicontycoon.exception.InsufficientResourcesException;
-import com.silicontycoon.exception.InvalidPlacementException;
-import com.silicontycoon.model.*;
-import com.silicontycoon.util.Constants;
+import exception.InsufficientResourcesException;
+import exception.InvalidPlacementException;
+import model.*;
+import util.Constants;
 
 import java.util.ArrayList;
 import java.util.EnumMap;

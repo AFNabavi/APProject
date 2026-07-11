@@ -1,4 +1,4 @@
-package com.silicontycoon.controller;
+package controller;
 
 /** The phases a normal turn goes through, plus the pre-game setup phase. */
 public enum TurnPhase {

@@ -1,4 +1,4 @@
-package com.silicontycoon.model;
+package model;
 
 /**
  * The five resource types used as the currency of the game.

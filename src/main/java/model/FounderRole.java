@@ -1,4 +1,4 @@
-package com.silicontycoon.model;
+package model;
 
 /**
  * The three optional founder roles. Taking a role costs the player

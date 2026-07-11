@@ -1,4 +1,4 @@
-package com.silicontycoon.exception;
+package exception;
 
 /**
  * Thrown by the SaveLoadManager when a save file cannot be parsed

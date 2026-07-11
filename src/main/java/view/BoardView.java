@@ -1,6 +1,6 @@
-package com.silicontycoon.view;
+package view;
 
-import com.silicontycoon.model.*;
+import model.*;
 import javafx.geometry.Pos;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;

@@ -1,4 +1,4 @@
-package com.silicontycoon.exception;
+package exception;
 
 /**
  * Base class for all custom checked exceptions raised by the game engine.

@@ -1,4 +1,4 @@
-package com.silicontycoon.exception;
+package exception;
 
 /**
  * Thrown when a player attempts an action (build, upgrade, trade) that
