@@ -1,41 +1,41 @@
-package model;
+package com.silicontycoon.model;
 
-// import model.resource.ResourceType;
+import java.io.Serializable;
 
-import java.util.ArrayList;
-import java.util.List;
+/**
+ * A single tile of the map grid. Holds the sector's specialization
+ * ({@link SectorType}) and, unless it is the neutral Regulatory Zone,
+ * the dice activation number (2-12, never 7) that triggers production.
+ */
+public class Sector implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-import config.ResourceType;
+    private final int row;
+    private final int col;
+    private final SectorType type;
+    private final int activationNumber; // 0 for Regulatory Zone
 
-public class Sector {
-
-    private int id;
-
-    private ResourceType resourceType;
-
-    private int number;
-
-    private List<Vertex> vertices = new ArrayList<>();
-
-    public Sector(int id, ResourceType resourceType, int number) {
-        this.id = id;
-        this.resourceType = resourceType;
-        this.number = number;
+    public Sector(int row, int col, SectorType type, int activationNumber) {
+        this.row = row;
+        this.col = col;
+        this.type = type;
+        this.activationNumber = activationNumber;
     }
 
-    public int getId() {
-        return id;
+    public int getRow() { return row; }
+    public int getCol() { return col; }
+    public SectorType getType() { return type; }
+    public int getActivationNumber() { return activationNumber; }
+
+    public boolean isActivatedBy(int diceSum) {
+        return !type.isNeutral() && activationNumber == diceSum;
     }
 
-    public ResourceType getResourceType() {
-        return resourceType;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    public List<Vertex> getVertices() {
-        return vertices;
+    @Override
+    public String toString() {
+        if (type.isNeutral()) {
+            return type.getLabel();
+        }
+        return type.getLabel() + " (" + activationNumber + ")";
     }
 }
